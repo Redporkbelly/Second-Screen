@@ -1,0 +1,86 @@
+@font-face {
+    font-family: DS Font;
+    src: url(Fonts/Nintendo-DS-BIOS.ttf);
+}
+@font-face {
+    font-family: SP Font;
+    src: url(Fonts/southpark.ttf);
+}
+@font-face {
+    font-family: Horizon Font;
+    src: url(Fonts/Horizon-nMeM.ttf);
+}
+@font-face {
+    font-family: Youtube Font;
+    src: url(Fonts/Youtube/YouTubeSansDarkMedium.otf);
+}
+@font-face {
+    font-family: Sabaton Font;
+    src: url(Fonts/OldLondon/OldLondon.ttf);
+}
+* {
+  box-sizing:border-box;
+}
+.top{
+    padding-bottom: 10px;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  border:solid, black, 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.a{
+    background: linear-gradient(to left, #aa3624,#463f92);
+    font-family: "Horizon Font";
+    font-size: 40px;
+    line-height: 35px;
+}
+.b{
+    background: linear-gradient(to right, #00714b, #88d4e2);
+    font-family: "SP Font";
+    font-size: 40px;
+}
+.c{
+    background-color: green;
+    font-family: "Youtube Font";
+    font-size: 30px;
+}
+.d{
+    background-color: blue;
+    font-family: "Sabaton Font";
+    font-size: 40px;
+    line-height: 30px;
+}
+p{
+    text-align: center;
+    color: white;
+}
+h1{
+    font-family: "DS Font";
+    color: #00df00;
+    font-size: 50px;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+.squareImg{
+    border: groove, black, 10px
+}
