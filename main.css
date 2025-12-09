@@ -22,7 +22,7 @@
   box-sizing:border-box;
 }
 .top{
-    padding-bottom: 10px;
+
 }
 /* Create two equal columns that floats next to each other */
 .column {
@@ -41,23 +41,24 @@
 .a{
     background: linear-gradient(to left, #aa3624,#463f92);
     font-family: "Horizon Font";
-    font-size: 40px;
+    font-size: 32px;
     line-height: 35px;
 }
 .b{
     background: linear-gradient(to right, #00714b, #88d4e2);
     font-family: "SP Font";
     font-size: 40px;
+    line-height: 35px;
 }
 .c{
     background-color: green;
     font-family: "Youtube Font";
-    font-size: 30px;
+    font-size: 26px;
 }
 .d{
     background-color: blue;
     font-family: "Sabaton Font";
-    font-size: 40px;
+    font-size: 34px;
     line-height: 30px;
 }
 p{
@@ -78,9 +79,10 @@ body{
 }
 img {
   display: block;
-  margin: auto;
+
   width: 50%;
+
 }
 .squareImg{
-    border: groove, black, 10px
+    border: groove, black, 10px;
 }
