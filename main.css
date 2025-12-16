@@ -21,9 +21,7 @@
 * {
   box-sizing:border-box;
 }
-.top{
 
-}
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
@@ -79,9 +77,10 @@ body{
 }
 img {
   display: block;
-
   width: 50%;
-
+}
+a{
+    color: white;
 }
 .squareImg{
     border: groove, black, 10px;
