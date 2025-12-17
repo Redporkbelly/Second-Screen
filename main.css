@@ -18,6 +18,11 @@
     font-family: Sabaton Font;
     src: url(Fonts/OldLondon/OldLondon.ttf);
 }
+@font-face {
+    font-family: Rodin Pro;
+    src: url(Fonts/Rodin-Pro.otf);
+}
+
 * {
   box-sizing:border-box;
 }
@@ -28,9 +33,6 @@
   width: 25%;
   padding: 10px;
   border:solid, black, 10px;
-}
-.top{
-    
 }
 /* Clear floats after the columns */
 .row:after {
@@ -51,12 +53,12 @@
     line-height: 35px;
 }
 .c{
-    background-color: green;
+    background: linear-gradient(to right, #dc008f, #bf0000);
     font-family: "Youtube Font";
     font-size: 26px;
 }
 .d{
-    background-color: blue;
+    background: linear-gradient(to left, #2e3d41, #2d3d3d);
     font-family: "Sabaton Font";
     font-size: 34px;
     line-height: 30px;
@@ -64,15 +66,27 @@
 p{
     text-align: center;
     color: white;
+    font-family: "Rodin Pro";
+}
+li{
+    color: white;
+    font-family: "Rodin Pro";
 }
 h1{
     font-family: "DS Font";
     color: #00df00;
     font-size: 50px;
+    padding-left: 3%;
+    display: inline;
 }
 h2{
     color: white;
     text-align: center;
+}
+h3{
+    color: white;
+    text-align: left;
+    font-family: "Rodin Pro";
 }
 body{
     background-color: black;
@@ -86,7 +100,12 @@ img {
 }
 a{
     color: white;
+    text-decoration: none;
+
 }
 .squareImg{
-    border: groove, black, 10px;
+    border: inset, black, 10px;
+}
+.back{
+    color: rgb(255, 83, 83);
 }

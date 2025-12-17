@@ -1,3 +1,4 @@
+@import "main.css";
 @font-face {
     font-family: DS Font;
     src: url(Fonts/Nintendo-DS-BIOS.ttf);
@@ -5,4 +6,17 @@
 @font-face {
     font-family: Horizon Font;
     src: url(Fonts/Horizon-nMeM.ttf);
+}
+body{
+    background-color: black;
+}
+.background{
+    background: linear-gradient(to left, #aa3624,#463f92);
+    margin: 2%;
+    border-radius: 20px;
+    padding-bottom: 300%;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1;
+
 }
